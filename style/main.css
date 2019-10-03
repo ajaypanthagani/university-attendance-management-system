@@ -1,0 +1,87 @@
+#button{
+background-image: linear-gradient(-189deg, #01031c 70%, white);
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+color:white;
+border:none;
+border-radius: 5px;
+}
+
+#button:hover{
+transform:scale(1.1);
+}
+.form-control{
+	border-radius:30px;
+	border-color:gray;}
+.form-control:hover{
+	border-color:#88bfea;
+}
+.about-card{
+color: white;
+padding: 20px;
+background-image: linear-gradient(-250deg, #01031c 90%, white);
+border-radius: 5px;
+height: auto;
+}
+.detail{
+display: block;
+font-size: auto;
+text-align: center;
+}
+a{
+text-decoration: none;
+color: grey;
+}
+a:hover{
+text-decoration: none;
+color: hotpink;
+}
+body {
+  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+
+.ctr {
+  position: relative;
+  width: auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+ background-image: linear-gradient(-250deg, #01031c 70%, white);
+}
+
+.ctr:hover .overlay {
+  opacity: 0.7;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
